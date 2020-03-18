@@ -1,4 +1,5 @@
 import { createMuiTheme } from "@material-ui/core/styles";
+import { grey } from "@material-ui/core/colors";
 
 const violet = "rgb(115, 103, 240)";
 const arcOrange = "#FFBA60";
@@ -15,6 +16,9 @@ export default createMuiTheme({
     },
     secondary: {
       main: `${arcOrange}`
+    },
+    background: {
+      default: grey["200"]
     }
   },
   typography: {

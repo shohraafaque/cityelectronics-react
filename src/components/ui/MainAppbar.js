@@ -40,7 +40,9 @@ const useStyles = makeStyles(theme => ({
     }
   },
   searchIcon: {
-    paddingRight: "0.5em"
+    paddingRight: "2.5em",
+    width: "24px",
+    height: "24px"
   },
   inputRoot: {
     color: "inherit"
@@ -109,8 +111,8 @@ export default function PrimarySearchAppBar() {
                 inputProps={{ "aria-label": "search" }}
               />
             </Grid>
-            <Grid item>
-              <SearchIcon className={classes.searchIcon} />
+            <Grid item className={classes.searchIcon}>
+              <SearchIcon />
             </Grid>
           </Grid>
           <div className={classes.sectionDesktop}>
