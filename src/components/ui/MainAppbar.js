@@ -13,8 +13,16 @@ import AccountCircle from "@material-ui/icons/AccountCircle";
 import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import { Grid } from "@material-ui/core";
+import footerAdorment from "../../assets/Footer Adornment.svg";
 
 const useStyles = makeStyles(theme => ({
+  appBar: {
+    backgroundImage: `url("${footerAdorment}")`,
+    // background-olor: rgb(115, 103, 240);
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "25em",
+    marginBottom: "3em"
+  },
   grow: {
     flexGrow: 1
   },
@@ -60,6 +68,16 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.up("md")]: {
       display: "flex"
     }
+  },
+  footerAdornment: {
+    verticalAlign: "top",
+    width: "25em",
+    [theme.breakpoints.down("md")]: {
+      width: "21em"
+    },
+    [theme.breakpoints.down("xs")]: {
+      width: "15em"
+    }
   }
 }));
 
@@ -94,7 +112,7 @@ export default function PrimarySearchAppBar() {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.appBar}>
         <Toolbar>
           <Typography className={classes.title} variant="h5" noWrap>
             City Electronics
