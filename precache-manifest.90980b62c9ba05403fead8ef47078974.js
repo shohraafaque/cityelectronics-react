@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d664fe72d7718daa0793a3790ca92b5",
+    "revision": "c672575e2bcba663787688a337d76042",
     "url": "/cityelectronics-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cityelectronics-react/static/css/2.b706bf63.chunk.css"
   },
   {
-    "revision": "9ea42cfc2ad2fb86fc00",
+    "revision": "525c8401bace58e96058",
     "url": "/cityelectronics-react/static/css/main.a1e3d7cc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cityelectronics-react/static/js/2.455d6670.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ea42cfc2ad2fb86fc00",
-    "url": "/cityelectronics-react/static/js/main.62ee5330.chunk.js"
+    "revision": "525c8401bace58e96058",
+    "url": "/cityelectronics-react/static/js/main.b1d696a4.chunk.js"
   },
   {
     "revision": "d0fdc6de1295f89dea71",
