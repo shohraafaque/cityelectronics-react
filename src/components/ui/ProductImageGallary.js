@@ -1,7 +1,7 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-
+import "./CustomAliceCarousel.css";
 class ProductImageGallery extends React.Component {
   item = [
     "https://rukminim1.flixcart.com/image/832/832/k7dnonk0/mobile/r/r/t/realme-6-rbs0601in-original-imafpmg2aqdf2dqm.jpeg?q=70",
@@ -19,10 +19,10 @@ class ProductImageGallery extends React.Component {
         alt=""
         style={{
           maxHeight: "400px",
-          maxWidth: "400px",
+          maxWidth: "600px",
           height: "auto",
           width: "auto",
-          display: "block",
+          // display: "block",
           marginLeft: "auto",
           marginRight: "auto"
           // width: "50%"
@@ -64,7 +64,7 @@ class ProductImageGallery extends React.Component {
           onInitialized={this.handleOnSlideChange}
           onSlideChanged={this.handleOnSlideChange}
           onResized={this.handleOnSlideChange}
-          autoPlay={true}
+          autoPlay={false}
           autoPlayInterval={3000}
           buttonsDisabled={true}
         />

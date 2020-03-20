@@ -1,9 +1,8 @@
 import { createMuiTheme } from "@material-ui/core/styles";
-import { grey } from "@material-ui/core/colors";
 
 const violet = "rgb(115, 103, 240)";
 const arcOrange = "#FFBA60";
-const arcGrey = "#868686";
+const greyShade = "#f7f7f7";
 
 export default createMuiTheme({
   palette: {
@@ -18,7 +17,7 @@ export default createMuiTheme({
       main: "#000000"
     },
     background: {
-      default: grey["200"]
+      default: greyShade
     }
   },
   typography: {
@@ -34,11 +33,6 @@ export default createMuiTheme({
       textTransform: "none",
       fontSize: "1rem",
       color: "white"
-    },
-    body1: {
-      fontSize: "1.25rem",
-      color: arcGrey,
-      fontWeight: 300
     },
     learnButton: {
       borderColor: violet,
