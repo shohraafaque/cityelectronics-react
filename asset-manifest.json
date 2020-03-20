@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cityelectronics-react/static/css/main.a1e3d7cc.chunk.css",
-    "main.js": "/cityelectronics-react/static/js/main.3abb4901.chunk.js",
-    "main.js.map": "/cityelectronics-react/static/js/main.3abb4901.chunk.js.map",
+    "main.js": "/cityelectronics-react/static/js/main.62ee5330.chunk.js",
+    "main.js.map": "/cityelectronics-react/static/js/main.62ee5330.chunk.js.map",
     "runtime-main.js": "/cityelectronics-react/static/js/runtime-main.d323c0fd.js",
     "runtime-main.js.map": "/cityelectronics-react/static/js/runtime-main.d323c0fd.js.map",
     "static/css/2.b706bf63.chunk.css": "/cityelectronics-react/static/css/2.b706bf63.chunk.css",
     "static/js/2.455d6670.chunk.js": "/cityelectronics-react/static/js/2.455d6670.chunk.js",
     "static/js/2.455d6670.chunk.js.map": "/cityelectronics-react/static/js/2.455d6670.chunk.js.map",
     "index.html": "/cityelectronics-react/index.html",
-    "precache-manifest.cabfaed6f41816a85d7ffd56fe3ed882.js": "/cityelectronics-react/precache-manifest.cabfaed6f41816a85d7ffd56fe3ed882.js",
+    "precache-manifest.dd557893652e4978aca5aaa84bbe202c.js": "/cityelectronics-react/precache-manifest.dd557893652e4978aca5aaa84bbe202c.js",
     "service-worker.js": "/cityelectronics-react/service-worker.js",
     "static/css/2.b706bf63.chunk.css.map": "/cityelectronics-react/static/css/2.b706bf63.chunk.css.map",
     "static/css/main.a1e3d7cc.chunk.css.map": "/cityelectronics-react/static/css/main.a1e3d7cc.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.b706bf63.chunk.css",
     "static/js/2.455d6670.chunk.js",
     "static/css/main.a1e3d7cc.chunk.css",
-    "static/js/main.3abb4901.chunk.js"
+    "static/js/main.62ee5330.chunk.js"
   ]
 }
